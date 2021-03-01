@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+}
+
+.header__left > input {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.header__search > img {
+    object-fit: contain;
+    height: 40px;
+    margin-right: 10px;
+
+}
+
+
+.header__search {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    color: gray;
+  
+}
+
+.header__left > img {
+    object-fit: contain;
+    height: 40px;
+   
+  }
+
+  .header__right {
+      display: flex;
+  }
+
+
+  /* Javascript for Search Icon and Image
+  <img src="https://static.thenounproject.com/png/765569-200.png" alt=""/>
+                <SearchIcon />
+                <input type="text"/>
+*/ 
