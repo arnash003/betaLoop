@@ -1,0 +1,39 @@
+.HomePageNav {
+    display: flex;
+    color: black;
+    overflow-x: scroll;
+    padding: 10px;
+    padding-left: 40px;
+    background-color:yellow;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    
+  
+  
+    
+}
+
+.HomePageNav::-webkit-scrollbar {
+    display: none;
+}
+
+.HomePageNav{
+    -ms-overflow-style:none;
+    scrollbar-width: none;
+}
+
+.HomePageNav > h6 {
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 900;
+    opacity: 0.9;
+    transition: transform 50ms ease-out;
+
+}
+
+.HomePageNav > h6:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}

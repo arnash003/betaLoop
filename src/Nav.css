@@ -26,6 +26,8 @@ transition: all 0.5s;
     object-fit: contain;
     padding-left: 15px;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav_avatar {
@@ -55,5 +57,34 @@ transition: all 0.5s;
     color: #000;
     background-color: #e6e6e6;
 }
-  
+
+.nav_flag {
+   
+    object-fit: contain;
+    cursor: pointer;
+    width: 50px;
+    padding-left: 70px;
+    align-items: center;
+    padding-right: 10px;
+
+    
+}
+
+.nav_flag2 {
+    
+   
+    object-fit: contain;
+    cursor: pointer;
+    width: 50px;
+    align-items: center;
+}
+
+.nav_flag3 {
+    object-fit: contain;
+    cursor: pointer;
+    width: 50px;
+    align-items: center;
+    
+}
+
 

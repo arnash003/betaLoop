@@ -25,6 +25,7 @@ function Header() {
                     <HeaderOption Icon={EmailIcon} title="Newsletter"/>
                     <HeaderOption Icon={BookIcon} title='Screening'/>
                     <HeaderOption Icon={ScreenShareIcon} title="Shop"/>
+                    
                 </div>
             </div>
             

@@ -8,7 +8,12 @@ import Post from './Post';
 import Row from './Row';
 import requests from './Requests';
 import news from './News';
-import Container from './Container';
+import { Home } from '@material-ui/icons';
+import HomePageNav from './Components/HomePageNav';
+import Results from './Results';
+
+
+
 
 
 
@@ -19,10 +24,6 @@ function Feed() {
 
 
 
-
-
-
-
     return (
         <div className="feed">
            <div className="feed__inputContainer">
@@ -30,7 +31,7 @@ function Feed() {
                    <CreateIcon />
                    <form>
                        <input type="text" />
-                       <button   type="submit">
+                       <button className="feed__submit"  type="submit">
                            submit
                            </button>
                    </form>
@@ -51,21 +52,17 @@ function Feed() {
            description="this is a test"
            message="wow, this worked"
            />
-        <Row
-        title="Netflix Originals"
-        fetchUrl={requests.fetchNetflixOriginals}
-        isLargeRow
-      />
-      <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
-      <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
-      <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
-      <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
-      <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
-      <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
-      <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
+
+      <Row title="Top Headlines" fetchUrl={requests.fetchTopHeadlines} />
+      <br></br>
+      <HomePageNav/>
+      <br></br>
+      <Results/>
 
       <br></br>
-      <Container/>
+      
+     
+     
 
      </div>
        

@@ -4,9 +4,9 @@ import "./Row.css";
 import axios from "./axios";
 
 function Row({ title, fetchUrl, isLargeRow = false }) {
-  const [movies, setMovies] = useState([]);
+  const [articles, setArticles] = useState([]);
 
-  const base_url = "https://image.tmdb.org/t/p/original/";
+  const base_url = "https://newsapi.org/v2";
 
   function truncate(string, n) {
     return string?.length > n ? string.substr(0, n - 1) + "..." : string;
@@ -16,7 +16,7 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
     async function fetchData() {
       const request = await axios.get(fetchUrl);
       console.log(request.data);
-      setMovies(request.data.results);
+      setArticles(request.data.articles); 
       return request;
     }
 
@@ -25,8 +25,17 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
 
   return (
     <div className="row">
-      <h2>{title}</h2>
-      <div className="row__posters">
+      <h3>{title}</h3>
+      <div>
+        {articles.map((article) => (
+          <p>{article.title}</p>
+      ))}
+      </div>
+      
+
+
+
+      {/* <div className="row__posters">
         {movies.map((movie) => (
       
             ((isLargeRow && movie.poster_path) || (!isLargeRow &&
@@ -42,7 +51,7 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
             )
         
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }

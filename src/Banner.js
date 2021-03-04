@@ -31,9 +31,9 @@ function Banner() {
         <header
       className="banner"
       style={{
-          backgroundSize: "contain",
+          backgroundSize: "cover",
           overflow: 'hidden',
-          backgroundImage: `url("https://images.unsplash.com/photo-1571847140471-1d7766e825ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=373&q=80")`,
+          backgroundImage: `url("https://images.unsplash.com/photo-1610693557954-ea76606425d3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80")`,
           
           backgroundPosition: "center center"
           

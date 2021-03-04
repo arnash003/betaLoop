@@ -1,5 +1,6 @@
 .container {
     display: flex;
-    background-color: violet;
+    background-color: pink;
     height: 570px;
+    justify-content: center;
 }

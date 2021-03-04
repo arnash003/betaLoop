@@ -1,10 +1,18 @@
 .row {
-    color: white;
+    color: black;
     margin-left: 20px;
-    flex-grow: 1;
+    flex-grow: 2;
+    background-color: white;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    display: table-row;
+    
+
+
 }
 
-.row__posters {
+/* .row__posters {
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
@@ -35,4 +43,4 @@
 .row__posterLarge:hover {
     transform: scale(1.09);
     opacity: 1;
-}
+} */
