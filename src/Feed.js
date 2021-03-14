@@ -9,7 +9,6 @@ import Row from './Row';
 import requests from './Requests';
 import news from './News';
 import { Home } from '@material-ui/icons';
-import HomePageNav from './Components/HomePageNav';
 import Results from './Results';
 
 
@@ -55,10 +54,6 @@ function Feed() {
 
       <Row title="Top Headlines" fetchUrl={requests.fetchTopHeadlines} />
       <br></br>
-      <HomePageNav/>
-      <br></br>
-      <Results/>
-
       <br></br>
       
      

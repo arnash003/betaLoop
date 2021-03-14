@@ -6,20 +6,7 @@ function Results() {
     return (
         <div className="results">
             <VideoCard />
-            <br></br>
-            <VideoCard />
-            <br></br>
-            <VideoCard />
-            <br></br>
-            <VideoCard />
-            <br></br>
-            <VideoCard />
-            <br></br>
-            <VideoCard />
-            <br></br>
-          
-         
-            
+            <VideoCard/>
         </div>
     )
 }

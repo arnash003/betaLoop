@@ -87,4 +87,35 @@ transition: all 0.5s;
     
 }
 
+.nav__flag4 {
+    object-fit: contain;
+    cursor: pointer;
+    width: 50px;
+    align-items: center;
+}
+
+.nav__flag5 {
+    object-fit: contain;
+    cursor: pointer;
+    width: 50px;
+    align-items: center; 
+}
+
+.nav__flag6 {
+    object-fit: contain;
+    cursor: pointer;
+    width: 50px;
+    align-items: center;
+}
+
+.nav__flag7{
+    object-fit: contain;
+    cursor: pointer;
+    width: 50px;
+    align-items: center;
+}
+
+
+
+
 

@@ -44,3 +44,34 @@
     transform: scale(1.09);
     opacity: 1;
 } */
+
+.headline__row {
+    display: row;
+   height: min-content;
+   overflow-y: overlay;
+}
+
+.headline__row > h4 {
+    font: optional;
+}
+
+.headline__row > img {
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    cursor: pointer;
+    object-fit: cover;
+    justify-content: center;
+    
+}
+
+.headline__row > img:hover{
+    transform: scale(1.09);
+}
+
+.headline__row > p {
+    font-weight: 600;
+    font-size: small;
+}
+
+
+

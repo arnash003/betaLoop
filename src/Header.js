@@ -6,10 +6,11 @@ import HomeIcon from '@material-ui/icons/Home';
 import MovieIcon from '@material-ui/icons/Movie';
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import EmailIcon from '@material-ui/icons/Email';
-import BookIcon from '@material-ui/icons/Book';
+import LiveTvIcon from '@material-ui/icons/LiveTv';
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import ScreenShareIcon from '@material-ui/icons/ScreenShare';
 import { Route, Router, Switch } from 'react-router-dom';
+import {Link} from "react-router-dom";
 import Banner from './Banner';
 
 
@@ -19,12 +20,15 @@ function Header() {
             <div className="header__left">
                 <div className="header__search">
                   
+                        
                     <HeaderOption Icon={HomeIcon} title='Home'/>
                     <HeaderOption Icon={MovieIcon} title="Films"/>
                     <HeaderOption Icon={AccountBoxIcon} title='Sign Up'/>
                     <HeaderOption Icon={EmailIcon} title="Newsletter"/>
-                    <HeaderOption Icon={BookIcon} title='Screening'/>
+                    <HeaderOption Icon={LiveTvIcon} title='A LIVE' />
                     <HeaderOption Icon={ScreenShareIcon} title="Shop"/>
+                    
+
                     
                 </div>
             </div>
