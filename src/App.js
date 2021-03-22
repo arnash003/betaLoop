@@ -8,6 +8,9 @@ import ALive from './Components/ALive';
 import NewsLetter from './Components/NewsLetter';
 import SignUp from './Components/SignUp';
 import VideoCard from './Components/VideoCard';
+import SubmitFilmScreen from './screens/SubmitFilmScreen';
+
+
 
 
 function App() {
@@ -23,17 +26,19 @@ function App() {
         </Route>
         <Route path="/newsletter">
           <Route path="/">
+            <HomePage />
             <NewsLetter/>
           </Route>
         </Route>
         <Route path="/signup">
           <Route path="/">
+            <HomePage/>
             <SignUp/>
           </Route>
         </Route>
         <Route path="/films">
           <Route path="/">
-            <VideoCard/>
+          <SubmitFilmScreen />
           </Route>
         </Route>
     <HomeScreen/>

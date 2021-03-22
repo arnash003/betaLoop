@@ -4,4 +4,10 @@ const instance = axios.create({
   baseURL: "https://newsapi.org/v2",
 });
 
+const instanceTwo  = axios.create({
+    baseURL: "https://api.themoviedb.org/3",
+  });
+  
+
+
 export default instance;

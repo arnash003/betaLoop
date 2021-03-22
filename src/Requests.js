@@ -4,4 +4,5 @@ const requests = {
   fetchTopHeadlines: `/top-headlines?country=za&apiKey=${API_KEY}`
 };
 
+
 export default requests;
