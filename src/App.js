@@ -9,6 +9,10 @@ import NewsLetter from './Components/NewsLetter';
 import SignUp from './Components/SignUp';
 import VideoCard from './Components/VideoCard';
 import SubmitFilmScreen from './screens/SubmitFilmScreen';
+import Header from './Header';
+import PodcastsScreen from './Components/PodcastsScreen';
+import SubmitStory from './Components/SubmitStory';
+import ShopScreen from './screens/ShopScreen';
 
 
 
@@ -19,16 +23,23 @@ function App() {
     <div className="App">
     <Router>
       <Switch>
+        <Route path="/podcasts">
+          <Header/>
+          <PodcastsScreen/>
+        </Route>
+        <Route path="/stories">
+          <Header />
+          <SubmitStory />
+        </Route>
+        <Route path="/shopscreen">
+          <Header/>
+          <ShopScreen />
+        </Route>
         <Route path="/alivetv">
-          <Route path="/">
             <ALive/>
           </Route>
-        </Route>
         <Route path="/newsletter">
-          <Route path="/">
-            <HomePage />
             <NewsLetter/>
-          </Route>
         </Route>
         <Route path="/signup">
           <Route path="/">
@@ -37,9 +48,7 @@ function App() {
           </Route>
         </Route>
         <Route path="/films">
-          <Route path="/">
           <SubmitFilmScreen />
-          </Route>
         </Route>
     <HomeScreen/>
     </Switch>

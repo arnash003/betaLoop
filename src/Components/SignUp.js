@@ -1,6 +1,7 @@
 import React from 'react'
 import "./SignUp.css"
 
+
 function SignUp() {
     return (
         <div className="signupScreen_body">
@@ -20,6 +21,7 @@ function SignUp() {
         </h4>
       </form>
       </div>
+   
             
         </div>
     )

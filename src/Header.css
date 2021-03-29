@@ -11,6 +11,10 @@
     background-color: white;
 }
 
+.links {
+    color: white;
+}
+
 .header__left > input {
     outline: none;
     border: none;

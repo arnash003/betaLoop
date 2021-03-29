@@ -1,14 +1,14 @@
 import React from 'react' 
-import HomePage from './HomePage';
 import "./ALive.css";
 import AliveFeed from './ALiveFeed';
+import Header from '../Header';
 
 
 function ALive() {
     return (
         <div className="alive__tv">
             <div>
-            <HomePage/>
+            <Header/>
             <AliveFeed/>
             </div>
 

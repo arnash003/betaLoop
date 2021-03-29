@@ -1,7 +1,8 @@
 import React from 'react'
 import Banner from '../Banner';
-import HomePage from '../Components/HomePage';
+
 import FilmRow from '../FilmRow';
+import Header from '../Header';
 import requestsTwo from '../RequestsTwo';
 import "./SubmitFilmScreen.css";
 
@@ -10,7 +11,7 @@ import "./SubmitFilmScreen.css";
 function SubmitFilmScreen() {
     return (
         <div className="submitFilmScreen">
-            <HomePage/>
+            <Header/>
             <FilmRow 
             title="African Originals"
             fetchUrl={requestsTwo.fetchNetflixOriginals}
