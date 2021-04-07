@@ -12,7 +12,7 @@ import RadioIcon from '@material-ui/icons/Radio';
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import ScreenShareIcon from '@material-ui/icons/ScreenShare';
 import { Route, Router, Switch } from 'react-router-dom';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Banner from './Banner';
 
 

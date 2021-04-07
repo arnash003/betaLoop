@@ -13,6 +13,7 @@ import Header from './Header';
 import PodcastsScreen from './Components/PodcastsScreen';
 import SubmitStory from './Components/SubmitStory';
 import ShopScreen from './screens/ShopScreen';
+import SignUpScreen from './Components/SignUpScreen';
 
 
 
@@ -26,6 +27,10 @@ function App() {
         <Route path="/podcasts">
           <Header/>
           <PodcastsScreen/>
+        </Route>
+        <Route path="/signupscreen">
+          <Header />
+          <SignUpScreen/>
         </Route>
         <Route path="/stories">
           <Header />

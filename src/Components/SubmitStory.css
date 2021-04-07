@@ -1,0 +1,46 @@
+
+.submitStoryContainer {
+    display: flex;
+    background-color: yellow;
+    height: 250px;
+    width: 250px;
+    margin-left: 150px;
+    
+}
+
+.submitStoryContainer > h4 {
+    font-size: large;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.submitStoryForm {
+    display: flex;
+    background-color: pink;
+    height: 600px;
+    width: 700px;
+    margin-left: 400px;
+}
+
+.submitStoryForm > h1 {
+    font-size: large;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.storyFormInput > input {
+    font-size: small;
+    font-weight: 500;
+    margin-top: 45px;
+    margin-left: 10px;
+    display: flex;
+    object-fit: contain;
+}
+
+
+
+
+
+
